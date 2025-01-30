@@ -32,13 +32,14 @@ export const CloudAccountContent = ({
         <AccordionHeader
           className={
             open
-              ? `px-4
+              ? `px-4 py-2
                   text-accordion-header-active-color
                   dark:text-accordion-header-active-color-dark
                   hover:!text-gray-500
                   bg-accordion-header-active-background
-                  dark:bg-accordion-header-active-background-dark`
-              : "px-4"
+                  dark:bg-accordion-header-active-background-dark
+                  rounded-lg`
+              : "px-4 py-2"
           }
           onClick={onClick}
         >
@@ -63,13 +64,13 @@ export const CloudAccountContent = ({
         <AccordionHeader
           className={
             open
-              ? `px-4
+              ? `px-4 py-2
                   text-accordion-header-active-color
                   dark:text-accordion-header-active-color-dark
                   hover:!text-gray-500
                   bg-accordion-header-active-background
                   dark:bg-accordion-header-active-background-dark`
-              : "px-4"
+              : "px-4 py-2"
           }
           onClick={onClick}
         >

@@ -75,7 +75,7 @@ export default async function Installer({ params, searchParams }) {
           </Link>
           <Link href={installer?.metadata?.homepage_url}>
             <img
-              className="inline-block min-h-16 max-w-2xl"
+              className="inline-block max-h-10"
               src={installer?.metadata?.logo_url}
               alt={installer?.metadata?.name}
             />
