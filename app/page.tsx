@@ -64,7 +64,7 @@ export default async function Home({ searchParams }) {
           <h1>
             <Link href={metadata.homepage_url}>
               <img
-                className="inline-block max-w-xl max-h-xl"
+                className="inline-block max-w-xl max-h-xl h-24"
                 src={metadata.logo_url}
                 alt={metadata.name}
               />
