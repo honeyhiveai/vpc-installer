@@ -8,7 +8,7 @@ export const NavArrows = ({
 }) => (
   <div className="flex justify-between">
     <Button
-      className="rounded-md flex items-center gap-4 pl-3 pr-7 bg-black dark:bg-white text-white dark:text-black"
+      className="rounded-md flex items-center gap-4 pl-3 pr-7 py-2 bg-black dark:bg-white text-white dark:text-black"
       onClick={handlePrev}
       disabled={isFirstStep}
     >
@@ -18,7 +18,7 @@ export const NavArrows = ({
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="size-6"
+        className="w-4 h-4"
       >
         <path
           strokeLinecap="round"
@@ -29,7 +29,7 @@ export const NavArrows = ({
       Previous
     </Button>
     <Button
-      className="rounded-md flex items-center gap-4 pl-7 pr-3 bg-black dark:bg-white text-white dark:text-black"
+      className="rounded-md flex items-center gap-4 pl-3 pr-7 py-2 bg-black dark:bg-white text-white dark:text-black"
       onClick={handleNext}
       disabled={isLastStep}
     >
@@ -40,7 +40,7 @@ export const NavArrows = ({
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="size-6"
+        className="w-4 h-4"
       >
         <path
           strokeLinecap="round"
